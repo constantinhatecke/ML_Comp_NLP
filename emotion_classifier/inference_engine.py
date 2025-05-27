@@ -29,7 +29,7 @@ def load_model_and_tokenizer():
     embedding_matrix = torch.randn(len(vocab), embedding_dim)
 
     model = MyModel(embedding_matrix, hidden_dim, output_dim, pad_idx)
-    model.load_state_dict(torch.load(model_path, map_location=torch.device("cpu")))
+    model = torch.load(model_path, map_location=torch.device("cpu"))
     model.eval()
 
     with open(label_path, "rb") as f:
