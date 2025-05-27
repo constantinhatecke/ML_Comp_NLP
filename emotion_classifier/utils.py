@@ -3,7 +3,7 @@ import gdown
 
 MODEL_URL = "https://drive.google.com/uc?id=1A8xh9HGVOvVB-yw-vFGe9bA8uqoLwNw8"
 
-LABEL_URL = "https://drive.google.com/uc?id=1g3fJl4ia6qHYCnrCoYJxo20ArcaTbJ
+LABEL_URL = "https://drive.google.com/uc?id=1g3fJl4ia6qHYCnrCoYJxo20ArcaTbJ"
 
 
 def download_model():
